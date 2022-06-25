@@ -1,0 +1,35 @@
+<div class="offers-section">
+    <div class="container-1200 limited-time">
+        <div class="heading">Limited Time Special Offers</div>
+        <div class="offers">
+            <div *ngFor="let offer of offers" class="offer-image">
+                <img [src]="offer" alt="offers">
+            </div>
+        </div>
+    </div>
+</div>
+<div class="banner1">
+    <div class="container-1200">
+        <img src="../../assets/banner1.webp" alt="banner 1">
+    </div>
+</div>
+<div class="banner2">
+    <div class="container-1200">
+        <img src="../../assets/banner2.jpg" alt="banner 2">
+    </div>
+</div>
+<div class="top-categories">
+    <div class="container-1200 categories-container">
+        <div class="content">
+            <span class="heading">Categories To Bag</span>
+            <span class="sub-heading">Featuring The Latest Designs And Trends</span>
+        </div>
+        <div class="categories-grid">
+            <div *ngFor="let bag of bags" class="cards">
+                <img [src]="'../../assets/'+bag.name+'.webp'" [alt]="bag.name">
+                <div class="name">{{bag.name}}</div>
+                <div class="price">From &#8377;{{bag.price}}</div>
+            </div>
+        </div>
+    </div>
+</div>

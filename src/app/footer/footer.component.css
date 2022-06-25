@@ -1,0 +1,117 @@
+.footer {
+  margin: 4rem 0 0;
+  background-color: #f9f9f9;
+}
+
+.inspiring {
+  font-weight: 400;
+  text-align: center;
+  padding: 20px;
+  font-size: 15px;
+  display: block;
+  letter-spacing: 0.5px;
+}
+
+.footer-disc {
+  display: grid;
+  grid-template-columns: repeat(5, minmax(200px, 1fr));
+  grid-gap: 20px;
+  justify-content: space-between;
+  margin-top: 3rem;
+}
+
+.footer-disc .disc {
+}
+
+ul {
+  list-style: none;
+}
+
+ul li img {
+  width: 140px;
+  height: 60px;
+}
+
+li.header {
+  font-size: 15px;
+  font-weight: 700;
+  text-transform: none;
+  padding-bottom: 12px;
+  color: #464646;
+  font-family: sofia regular, Arial, Helvetica, sans-serif;
+}
+
+li.link {
+  transition: all 0.25s ease;
+  cursor: pointer;
+  font-size: 14px;
+  font-weight: 500;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.4;
+  display: block;
+  margin-bottom: 6px;
+  color: #848484 !important;
+  text-decoration: none;
+  font-family: sofia regular, Arial, Helvetica, sans-serif;
+}
+
+li.link:hover {
+  color: #22c5b5 !important;
+}
+
+li.sign-up {
+  transition: all 0.25s ease;
+  cursor: pointer;
+  font-size: 12px;
+  letter-spacing: 1px;
+  font-weight: 500;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.4;
+  display: block;
+  margin-bottom: 6px;
+  text-decoration: none;
+  font-family: sofia regular, Arial, Helvetica, sans-serif;
+}
+
+.btn {
+  appearance: none;
+  -webkit-appearance: none;
+  font-family: sans-serif;
+  cursor: pointer;
+  padding: 8px 10px;
+  min-width: 100%;
+  border: 0px;
+  -webkit-transition: background-color 100ms linear;
+  -ms-transition: background-color 100ms linear;
+  transition: background-color 100ms linear;
+  color: #ffffff;
+  background-color: #4abeb3;
+}
+
+.btn:focus,
+.btn.focus {
+  outline: 0;
+}
+
+.social-icons {
+  transition: all 0.25s ease;
+  cursor: pointer;
+  font-size: 14px;
+  font-weight: 500;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.4;
+  display: block;
+  margin-bottom: 6px;
+  color: #181818 !important;
+  text-decoration: none;
+  font-family: sofia regular, Arial, Helvetica, sans-serif;
+  margin-top: 2rem;
+}
+
+fa-icon {
+  margin: 3px !important;
+  font-size: 20px;
+}

@@ -1,0 +1,14 @@
+<div class="top-categories">
+    <div class="container-1200 categories-container">
+        <div class="content">
+            <span class="heading">Top Categories</span>
+            <span class="sub-heading">Unique Collection For Your Dream Home</span>
+        </div>
+        <div class="categories-grid">
+            <div *ngFor="let card of cards" class="cards">
+                <img [src]="'../../assets/'+ card +'.webp'" [alt]="card">
+                <div>{{card}}</div>
+            </div>
+        </div>
+    </div>
+</div>

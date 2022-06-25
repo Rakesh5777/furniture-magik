@@ -1,0 +1,40 @@
+<div class="container-1200">
+    <div class="flex">
+        <img class="testimonial-image" *ngFor="let testimonalNo of [1,2,3]"
+            [src]="'../../assets/testimonial'+testimonalNo+'.webp'" alt="testimonals">
+    </div>
+    <div class="customer-review">
+        <div class="header">Our Happy Customers</div>
+        <div class="review-box">
+            <h3>Chennai's top rated online furniture store on Google</h3>
+            <div class="stars">
+                <div class="rating">
+                    <fa-icon [icon]="star"></fa-icon>
+                    <fa-icon [icon]="star"></fa-icon>
+                    <fa-icon [icon]="star"></fa-icon>
+                    <fa-icon [icon]="star"></fa-icon>
+                    <fa-icon [icon]="star"></fa-icon> 4.6/5
+                </div> Based on Google Review
+            </div>
+        </div>
+        <div class="testimonial-constant">
+            <div class="contant1">
+                <ul>
+                    <li class="header">Buy Furniture Online in Chennai with Furniture magik. </li>
+                    <li class="link">Looking to decorate your home? Shop our wide selection of stylish furniture, home
+                        and décor, kitchen, lighting and etc for every room in your home! Enjoy free delivery and Hassle
+                        Free returns.</li>
+                </ul>
+            </div>
+            <div class="contant2">
+                <ul>
+                    <li class="header">Chennai's favourite online furniture mall for stylish designs, quality products
+                        at honest prices. </li>
+                    <li class="link"> Find furniture & décor that fits your style, whether it's Scandinavian, Industrial
+                        Chic, Zen, Contemporary, Vintage, Resort style or Classic styles. Shop the freshest trends in
+                        interior decorating on Furniture Magik.</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</div>

@@ -1,1 +1,25 @@
 /* You can add global styles to this file, and also import other style files */
+* {
+  box-sizing: border-box;
+  margin: 0px;
+  padding: 0px;
+}
+
+.container-1200 {
+  display: block;
+  margin: auto;
+  width: min(1200px, 100% - 5rem) !important;
+}
+
+.text-center {
+  text-align: center !important;
+}
+
+.border-bottom {
+  border-bottom: 1px solid #ddd;
+}
+
+.flex-column {
+  display: flex;
+  flex-direction: column;
+}

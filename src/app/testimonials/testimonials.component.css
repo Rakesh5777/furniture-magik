@@ -1,0 +1,118 @@
+.testimonial-image {
+  max-width: 21rem;
+  height: auto;
+}
+
+.flex {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.customer-review {
+  margin: 3rem 0;
+}
+
+.header {
+  text-align: center;
+  font-family: sofia regular, Arial, Helvetica, sans-serif;
+  font-weight: 400;
+  letter-spacing: 1px;
+  color: #464646;
+  font-size: 24px !important;
+  margin-bottom: 21px;
+}
+
+.review-box {
+  display: flex;
+  border: 2px solid #00bdb3;
+  border-radius: 4px;
+  width: 600px;
+  text-align: center;
+  -webkit-box-pack: center;
+  justify-content: center;
+  margin: 0 auto 1rem;
+}
+
+.review-box h3 {
+  margin-bottom: 0;
+  padding: 0.5rem 1rem;
+  color: #00bdb3;
+  text-align: center;
+  font-weight: 400;
+  border-radius: 5px 0 0 5px;
+  flex: 0 1 auto;
+  padding: 0.75rem 1.5rem;
+  display: flex;
+  align-items: center;
+  font-size: 1.3829997357em;
+}
+
+.review-box .stars {
+  width: 80%;
+  text-align: center;
+  color: #fff;
+  padding: 0.5rem 1rem;
+  -webkit-box-pack: center;
+  justify-content: center;
+  background-color: #00bdb3;
+  flex: 0 1 auto;
+  padding: 0.75rem 1.5rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.rating {
+  display: block;
+  font-weight: 400;
+  line-height: 1.4;
+  font-size: 1.475660718em;
+}
+
+.rating fa-icon {
+  color: #fdda4e;
+}
+
+.testimonial-constant {
+  margin-top: 6rem;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  align-items: stretch;
+  grid-gap: 1rem;
+}
+
+.testimonial-constant .contant2,
+.testimonial-constant .contant1 {
+  background-color: #fafafa;
+  padding: 2rem;
+}
+
+ul {
+  list-style: none;
+}
+
+li.header {
+  font-size: 15px !important;
+  font-weight: 500;
+  text-transform: none;
+  text-align: left;
+  padding-bottom: 0px;
+  color: #464646;
+  font-family: sofia regular, Arial, Helvetica, sans-serif;
+}
+
+li.link {
+  transition: all 0.25s ease;
+  cursor: pointer;
+  font-size: 14px;
+  font-weight: 500;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.4;
+  display: block;
+  margin-bottom: 6px;
+  color: #848484 !important;
+  text-decoration: none;
+  font-family: sofia regular, Arial, Helvetica, sans-serif;
+}

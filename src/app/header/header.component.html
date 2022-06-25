@@ -1,0 +1,47 @@
+<div class="header-container">
+    <header>
+        <div class="image">
+            <img src="../../assets/fmicon.png" alt="Furniture Magik">
+        </div>
+        <div class="link-group">
+            <div class="links">Bulk Orders</div>
+            <div class="links">Business</div>
+            <div class="icons links">
+                <fa-icon [icon]="envelope"></fa-icon>
+            </div>
+            <div class="icons links">
+                <fa-icon [icon]="phone"></fa-icon>
+            </div>
+            <div class="icons links">
+                <fa-icon [icon]="user"></fa-icon>
+            </div>
+            <div class="icons links">
+                <fa-icon [icon]="cart"></fa-icon>
+            </div>
+        </div>
+        <div class="wrapper">
+            <div class="searchBar">
+                <input #search id="searchQueryInput" type="text" name="searchQueryInput"
+                    placeholder="Find anything for your home..." value="" />
+                <button id="searchQuerySubmit" type="submit" name="searchQuerySubmit">
+                    <svg style="width:24px;height:24px" viewBox="0 0 24 24">
+                        <path fill="#666666"
+                            d="M9.5,3A6.5,6.5 0 0,1 16,9.5C16,11.11 15.41,12.59 14.44,13.73L14.71,14H15.5L20.5,19L19,20.5L14,15.5V14.71L13.73,14.44C12.59,15.41 11.11,16 9.5,16A6.5,6.5 0 0,1 3,9.5A6.5,6.5 0 0,1 9.5,3M9.5,5C7,5 5,7 5,9.5C5,12 7,14 9.5,14C12,14 14,12 14,9.5C14,7 12,5 9.5,5Z" />
+                    </svg>
+                </button>
+            </div>
+        </div>
+    </header>
+    <div class="menu-container">
+        <div *ngFor="let menu of subMenus" class="sub-menu">
+            <span>{{menu}}</span>
+            <fa-icon [icon]="downArrow"></fa-icon>
+        </div>
+        <div class="sub-menu wfh">
+            <span>Work From Home</span>
+        </div>
+        <div class="sub-menu spec-offers">
+            <span>Special Offers</span>
+        </div>
+    </div>
+</div>
