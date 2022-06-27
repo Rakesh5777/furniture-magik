@@ -1,6 +1,11 @@
-<app-header></app-header>
-<app-home-carosul></app-home-carosul>
-<app-top-categories></app-top-categories>
-<app-offers></app-offers>
-<app-testimonials></app-testimonials>
-<app-footer></app-footer>
+<ng-container *ngIf="!this.isMobile">
+    <app-header></app-header>
+    <app-home-carosul></app-home-carosul>
+    <app-top-categories></app-top-categories>
+    <app-offers></app-offers>
+    <app-testimonials></app-testimonials>
+    <app-footer></app-footer>
+</ng-container>
+<ng-container *ngIf="this.isMobile">
+    <h2 class="text-center" style="margin-top: 5vh;">Kindly use this site in desktop ....</h2>
+</ng-container>
