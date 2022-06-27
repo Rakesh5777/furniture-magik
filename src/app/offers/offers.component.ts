@@ -13,7 +13,7 @@ export class OffersComponent implements OnInit {
   constructor() { }
 
   ngOnInit(): void {
-    this.offers = [1, 2, 3, 4].map(num => `../../assets/offer${num}.webp`);
+    this.offers = [1, 2, 3, 4].map(num => `assets/offer${num}.webp`);
     this.bags = [
       { name: 'Temple Units', price: 2800 },
       { name: 'Bean Bags', price: 1409 },

@@ -12,7 +12,7 @@ export class HomeCarosulComponent implements OnInit {
   constructor() { }
 
   ngOnInit(): void {
-    this.images = [1, 2, 3, 4].map(num => `../../assets/carosul${num}.webp`);
+    this.images = [1, 2, 3, 4].map(num => `assets/carosul${num}.webp`);
   }
 
 }
